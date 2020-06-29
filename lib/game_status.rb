@@ -29,6 +29,7 @@ def won?(board)
     end
   end
   return false
+end
 =begin  
   found = false
   WIN_COMBINATIONS.each do |win_combo|
@@ -40,7 +41,6 @@ def won?(board)
   end
   return found
 =end
-end
 
 #method returning whether the entire board is full
 #AKA, if the none of the elements in the board array are " ", return true
